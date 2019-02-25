@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: url(‘chrome-extension://__MSG_@@extension_id__/font/cmunss.woff') format('woff'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: url(‘chrome-extension://__MSG_@@extension_id__/fonts/cmunsx.woff') format('woff'),
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: url(‘chrome-extension://__MSG_@@extension_id__/fonts/cmunsi.woff') format('woff'),
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Computer Modern Sans';
+  src: url(‘chrome-extension://__MSG_@@extension_id__/fonts/cmunso.woff') format('woff'),
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
 body, body.default {
   color: #000000 !important;
   background-color: #FFF !important;
@@ -21,13 +54,14 @@ body.night {
 #readability-container {
   max-width: 640px;
   margin: 0 auto;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-family: "Computer Modern Sans" !important;
+
   line-height: 200%;
   padding: 40px;
 }
 
 #readability-container h1 {
-  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif !important;
+  font-family: "Computer Modern Sans" !important;
   line-height: 140% !important;
 }
 
@@ -37,7 +71,7 @@ body.night {
 }
 
 #readability-message {
-  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif !important;
+  font-family: "Computer Modern Sans" !important;
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
